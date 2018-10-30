@@ -5,8 +5,10 @@ import App from './App';
 import Header from './Header';
 import Footer from './Footer';
 import * as serviceWorker from './serviceWorker';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+//import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap3/dist/css/bootstrap.min.css'
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
+import 'react-bootstrap-table2-paginator/dist/react-bootstrap-table2-paginator.min.css';
 
 ReactDOM.render(<Header/>, document.getElementById('header'));
 ReactDOM.render(<App />, document.getElementById('content-inside'));
